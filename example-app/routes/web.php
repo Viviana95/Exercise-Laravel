@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/animals', function()
+{
+    return view('animals');
+});
+
+//Route::get('/animals', [AnimalsController::class,'index']);
