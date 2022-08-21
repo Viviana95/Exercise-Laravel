@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ExampleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,10 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/animals', function()
-{
-    return view('animals');
-});
-
-//Route::get('/animals', [AnimalsController::class,'index']);
+ Route::get('/example',[ExampleController::class,'index']);

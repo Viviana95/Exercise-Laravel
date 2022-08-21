@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-   <h1>Holaaaaa</h1> 
+    <h1>Welcome to Laravel</h1>
+    <h2>{{$id}}</h2>
 </body>
 </html>
